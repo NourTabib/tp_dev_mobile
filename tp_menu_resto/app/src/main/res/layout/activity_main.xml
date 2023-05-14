@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Menu"
+        android:id="@+id/menu"
+
+        />
+    <CheckBox
+        android:id="@+id/checkbox_Pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza - 8000"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/menu"
+        />
+    <CheckBox
+        android:id="@+id/checkbox_Hamburger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hamburger - 6000"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/checkbox_Pizza"
+        />
+    <CheckBox
+        android:id="@+id/checkbox_sandwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="sandwitch - 5000"
+        android:layout_below="@id/checkbox_Hamburger"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@+id/checkbox_sandwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/checkbox_Hamburger"
+        android:layout_marginTop="30dp"
+        android:text="Add"
+        />
+
+
+</RelativeLayout>

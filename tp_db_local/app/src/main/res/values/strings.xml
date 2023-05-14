@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">miniappCRUDSQLite</string>
+    <string name="retour">come back</string>
+    <string name="add_btn">Add contact</string>
+    <string name="Num">numero</string>
+    <string name="Name">name</string>
+</resources>
